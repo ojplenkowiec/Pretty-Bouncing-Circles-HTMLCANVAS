@@ -111,7 +111,7 @@ var mouse = {
 window.addEventListener('mousemove', function(event) { mouse.x = event.x; mouse.y = event.y; } )
 
 var circles = [];
-var num_Circles = 500;
+var num_Circles = 1500;
 
 for(i = 0; i < num_Circles; i++){
     circles.push(new Circle());
